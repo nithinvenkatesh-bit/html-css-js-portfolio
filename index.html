@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nithin Venkatesh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Nithin Venkatesh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assests/profilepicture.png" alt="Nithin Venkatesh profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Nithin Venkatesh</h1>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assests/Nithin_Venkatesh_Resume.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assests/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/nthiv/'">
+                <img src="./assests/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/nithinvenkatesh-bit'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1 about-intro">Get To Know More</p>
+        <h1 class="section__text__p1 about-title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assests/about.jpg" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assests/experience.png" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>4+ years <br>Analyst</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assests/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.E. Mechanical Engineering <br>M.S. Business Analytics</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am a current graduate student pursuing a Master's in Business Analytics at Drexel University. My professional journey has been shaped by around four years of experience as a Risk Analyst at Amazon (Bangalore, India). I have also worked as a Business Analyst Intern at Systemic Diversity and Inclusion Group (Maryland, US), where I honed my skills in writing test cases, Fraud detection and Analysis, Data Analysis, Python, SQL, and Excel. Passionate about delving into data analysis to solve intricate business problems, I thrive on devising tailored solutions through strategic business analysis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow" onclick="location.href='#Skills'"></div>
+    </section>
+    <section id="Skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programing Languages and Methodologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <P>Inter</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>R Studio</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Agile</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>PDLC</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>SDLC</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Analytical Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Power BI</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Tableau</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>MATLAB</h3>
+                                <P>Intermediate</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>MySQL</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>Advanced Microsoft Excel</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="experience icon" class="icon">
+                            <div>
+                                <h3>HP ALM/QC</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="arrow" onclick="location.href='#Experience'"></div>
+    </section>
+    <section id="Experience">
+        <p class="section__text__p1 about-intro">My</p>
+        <h1 class="section__text__p1 about-title">Experience</h1>
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Risk Analyst</h3>
+                        <p>Amazon (Bangalore, India)</p>
+                        <p>Conducted comprehensive data analysis and led initiatives using advanced tools, detecting fraudulent activity in 56% of cases among 62,000 Selling partners. Supervised a cross-functional team, achieving a 15% profit increase through process automation, and created predictive models improving efficiency by 14%. Recognized as 'Employee of the Quarter,' for designing an automated project status tracking tool and migrating 90% of projects swiftly.</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Business Analyst Intern</h3>
+                        <p>SDIG (Maryland, USA)</p>
+                        <p>As an Analyst Intern, developed Power BI dashboards improving real-time monitoring by 40% and enhanced client satisfaction by 25% through aligned data insights. Conducted detailed data analysis with Python and managed databases with SQL, achieving 98% query accuracy. Established a data governance framework, reducing potential data issues by 20% and enhancing decision-making reliability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow" onclick="location.href='#Projects'"></div>>
+
+    </section>
+    <section id="Projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-1.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Compass Maritime, Harvard Business Review Case Study</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nithinvenkatesh-bit/Compass-Maritime-Harvard-Business-Review-Case-Study'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-2.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">The Currency of Data Science A Deep Dive into-Salaries</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nithinvenkatesh-bit/The-Currency-of-Data-Science-A-Deep-Dive-into-Salaries'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assests/project-3.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Sentiment Analysis Using Feedback Data for Co-op Enhancement at Drexel University</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/nithinvenkatesh-bit/Sentiment-Analysis-Using-Feedback-Data-for-Co-op-Enhancement-at-Drexel-University-'">
+                        Github
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="arrow" onclick="location.href='#Contact'"></div>
+    </section>
+    <section id="Contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assests/email.png" alt="Email Icon" class="icon contact-icon">
+                <p><a href="mailto:nv382@drexel.edu">nv382@drexel.edu</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assests/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/nthiv/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul> 
+            </div>
+        </nav>
+        <p>Copyright &#169; Nithin Venkatesh. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
